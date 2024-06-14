@@ -25,3 +25,4 @@ app.post('/books', (req, res) => {
     res.status(201).json(req.body)
   })
 
+module.exports = app;
